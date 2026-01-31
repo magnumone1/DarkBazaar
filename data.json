@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Plumbus",
+    "price": 99,
+    "description": "Побутова річ з усіх вимірів. Кожен має її вдома.",
+    "image": "images/Plumbus.jpeg",
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Portal Gun",
+    "price": 799,
+    "description": "Переміщуйся між світами одним клацанням. Обережно!",
+    "image": "images/portal.jpeg",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "title": "Butter Robot",
+    "price": 199,
+    "description": "Єдина мета — подавати масло. Але він сумний...",
+    "image": "images/Butter Robot.jpeg",
+    "rating": 3.7
+  },
+
+  {
+    "id": 4,
+    "title": "Meeseeks Box",
+    "price": 150,
+    "description": "Створи Мізікса для виконання будь-якого завдання. Але не зловживай!",
+    "image": "images/Meeseeks Box.jpeg",
+    "rating": 4.2
+  }
+]

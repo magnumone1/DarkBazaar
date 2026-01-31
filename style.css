@@ -1,0 +1,149 @@
+body {
+    margin: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: #00FCCA;
+    background: url("images/background.png") no-repeat center center fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.logo {
+    color: #00F8A1;
+    padding: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #00F8A1, 0 0 10px #00F8A1, 0 0 10px #00F8A1;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.search-box input {
+    padding: 10px 15px;
+    border: 2px solid #01462B;
+    background: #000506;
+    color: #01EDB2;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: 2px solid #01462B;
+    background: #000506;
+    color: #000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #01462B;
+    color: #000;
+}
+
+.layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 40px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    background-color: #000506;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid #01462B;
+    color: #074D36;
+    transition: all 0.3s ease;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.category {
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.category:hover {
+    background-color: #00F8A1;
+    color: #000;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #01462B;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card button {
+    background: #01462B;
+    color: #00F8A1;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px;
+}
+
+.card p {
+    a {
+        text-decoration: none;
+    }
+
+    font-size: 0.95rem;
+    color: #0C3D40;
+}
+
+.card .price {
+    color: #00FCCA;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+footer {
+    color: green;
+    text-align: center;
+    margin: 50px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #074D36;
+
+
+}
+
+
