@@ -19,7 +19,8 @@ DarkBazaar — це міні-магазин у стилі всесвіту *Rick
 
 ## 4.Демо
 🔗 Live demo:  
-  https://dark-bazaar.vercel.app/index.html
+  https://dark-bazaar-cahk.vercel.app/index.html
+
 
 
 
@@ -45,5 +46,5 @@ On the website, you can:
 
 ## 4.Demo
 🔗 Live demo:  
- https://dark-bazaar.vercel.app/index.html
+https://dark-bazaar-cahk.vercel.app/index.html
 
