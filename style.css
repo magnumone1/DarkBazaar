@@ -145,5 +145,139 @@ a {
 
 
 }
+/* Cart Styles */
+
+.page-title {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.cart-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(30, 30, 30, 0.9);
+    border: 1px solid #444;
+    padding: 12px;
+    border-radius: 12px;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.cart-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.cart-item strong {
+    flex: 1;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.remove-btn {
+    background: crimson;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.remove-btn:hover {
+    background: darkred;
+}
+
+.total {
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #0f0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.clear-btn {
+    display: block;
+    margin: 20px auto;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.2s;
+}
+
+.clear-btn:hover {
+    background: #e65c00;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
 
 
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
+    }
+
+    50% {
+        box-shadow: 0 0 25px rgba(255, 102, 0, 1), 0 0 50px rgba(255, 51, 0, 0.7);
+    }
+
+    100% {
+        box-shadow: 0 0 10px rgba(255, 102, 0, 0.8);
+    }
+}
+
+
+.clear-btn {
+    display: block;
+    margin: 20px auto;
+    background: linear-gradient(90deg, #ff6600, #ff3300);
+    color: #fff;
+    animation: pulseGlow 2s infinite;
+}
+
+.clear-btn:hover {
+    background: linear-gradient(90deg, #ff8533, #ff1a1a);
+    transform: scale(1.08);
+}
+
+
+.remove-btn {
+    background: linear-gradient(90deg, crimson, darkred);
+    color: #fff;
+    animation: pulseGlow 2s infinite;
+    animation-delay: 0.5s;
+}
+
+.remove-btn:hover {
+    background: linear-gradient(90deg, #ff4444, #990000);
+    transform: scale(1.08);
+}

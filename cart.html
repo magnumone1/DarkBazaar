@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина — DarkBazaar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <p class="logo">DarkBazaar</p>
+        <nav>
+            <a href="index.html">Каталог</a>
+            <a href="cart.html" class="active">🛒 Корзина</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">🛒 Твоя корзина</h1>
+        <div id="cart-container" class="cart-list"></div>
+        <p id="total-price" class="total"></p>
+        <button class="clear-btn" onclick="clearCart()">Очистити корзину</button>
+    </main>
+
+    <footer>
+        <p>© 2025 DarkBazaar.www</p>
+    </footer>
+
+    <script src="cart.js" defer></script>
+</body>
+
+</html>
