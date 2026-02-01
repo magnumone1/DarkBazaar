@@ -31,5 +31,57 @@
     "description": "Створи Мізікса для виконання будь-якого завдання. Але не зловживай!",
     "image": "images/Meeseeks Box.jpeg",
     "rating": 4.2
+  },
+
+  {
+    "id": 5,
+    "title": "Rick's Flask",
+    "price": 49,
+    "description": "Фляга Ріка для його улюблених напоїв. Завжди під рукою.",
+    "image": "images/Rick's Flask.jpg",
+    "rating": 4.8
+  },
+
+  {
+    "id": 6,
+    "title": "Mr. Meeseeks Plush",
+    "price": 29,
+    "description": "М'яка іграшка Мізікса, щоб завжди мати друга поруч.",
+    "image": "images/Mr. Meeseeks Plush.jpg",
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "title": "Rick's Portal Keychain",
+    "price": 19,
+    "description": "Брелок у вигляді порталу Ріка. Завжди відкриває нові можливості.",
+    "image": "images/Rick's Portal Keychain.jpg",
+    "rating": 4.4
+  },
+  {
+    "id": 8,
+    "title": "Pickle Rick Toy",
+    "price": 39,
+    "description": "Іграшка у вигляді Огірка Ріка. Весела і незвичайна.",
+    "image": "images/Pickle Rick Toy.jpg",
+    "rating": 4.9
+  },
+
+  {
+    "id": 9,
+    "title": "Rick and Morty Comic Book",
+    "price": 25,
+    "description": "Комікс з пригодами Ріка і Морті. Ідеальний для фанатів.",
+    "image": "images/Rick and Morty Comic Book.jpg",
+    "rating": 4.3
+  },
+
+  {
+    "id": 10,
+    "title": "Citadel of Ricks Poster",
+    "price": 15,
+    "description": "Постер з Цитаделлю Ріків. Прикрась свою кімнату.",
+    "image": "images/Citadel of Ricks Poster.jpg",
+    "rating": 4.1
   }
 ]
