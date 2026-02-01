@@ -281,3 +281,14 @@ button {
     background: linear-gradient(90deg, #ff4444, #990000);
     transform: scale(1.08);
 }
+
+.home-btn {
+    background: #01462B;
+}
+
+.home-btn:hover {
+    background-color: #00F8A1;
+        color: #000;
+        transform: scale(1.05);
+        cursor: pointer;
+}

@@ -10,19 +10,18 @@
 
 <body>
     <header>
-        <p class="logo">DarkBazaar</p>
-        <nav>
-            <a href="index.html">Каталог</a>
-            <a href="cart.html" class="active">🛒 Корзина</a>
-        
+     <p class="logo">DarkBazaar</p>
+         <nav class="nav-links">
+            <button onclick="window.location.href='index.html'" class="home-btn">Каталог</button>
+            
         </nav>
     </header>
 
     <main>
-        <h1 class="page-title">🛒 Твоя корзина</h1>
+        <h1 class="page-title">Твій кошик</h1>
         <div id="cart-container" class="cart-list"></div>
         <p id="total-price" class="total"></p>
-        <button class="clear-btn" onclick="clearCart()">Очистити корзину</button>
+        <button class="clear-btn" onclick="clearCart()">Очистити</button>
     </main>
 
     <footer>
