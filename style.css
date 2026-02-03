@@ -7,6 +7,14 @@ body {
     overflow-x: hidden;
 }
 
+@media (min-width: 576px) {
+  .container {
+    max-width: auto;
+    margin: auto;
+  }
+}
+
+
 .logo {
     color: #00F8A1;
     padding: 100px;

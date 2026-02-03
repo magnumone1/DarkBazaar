@@ -43,7 +43,7 @@ prevBtn.addEventListener('click', () => {
     loadCharacters(currentPage);
   }
 });
-
+ 
 nextBtn.addEventListener('click', () => {
   if (currentPage < maxPage) {
     currentPage++;
